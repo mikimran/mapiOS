@@ -12,7 +12,7 @@ job("Run me on git push and at 8 AM UTC") {
     }
     
     requirements {
-        workerPool = WorkerPools.SPACE_CLOUD // not necessary if workerType is specified
+        workerPool = WorkerPools.SELF_HOSTED // not necessary if workerType is specified
     }
     
     host("Run script") {
